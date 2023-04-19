@@ -1,5 +1,5 @@
 # Delete-Twitch-Chat-Banner
-A Browser extension that delete the twitch banner that hide the chat without connecting
+a twitch extension that removes the twitch banner that hides the chat without logging in
 
 # How to use
 Chrome:
