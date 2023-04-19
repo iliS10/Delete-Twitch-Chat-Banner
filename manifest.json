@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Delete Twitch Banner",
+  "version": "1.0",
+  "description": "A extension for delete the twitch chat banner that hide the what without connecting",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["supprimerElement.js"]
+    }
+  ]
+}
